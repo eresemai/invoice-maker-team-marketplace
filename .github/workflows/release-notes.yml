@@ -1,0 +1,14 @@
+name: release-notes
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Show recent commit subjects for manual release notes
+        run: git log --format='%h %s' -20

@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "invoice-maker-team-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "eresemai/invoice-maker-team-marketplace"
+      }
+    }
+  }
+}

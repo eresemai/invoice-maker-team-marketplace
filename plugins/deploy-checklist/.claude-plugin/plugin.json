@@ -1,0 +1,15 @@
+{
+  "name": "deploy-checklist",
+  "description": "Pre-deploy checklist enforcer: env diff, migrations dry-run, smoke endpoints, rollback plan, oncall heads-up.",
+  "version": "1.3.0",
+  "author": {
+    "name": "Invoice Maker Team"
+  },
+  "keywords": [
+    "deploy",
+    "release",
+    "checklist",
+    "ops"
+  ],
+  "license": "MIT"
+}
