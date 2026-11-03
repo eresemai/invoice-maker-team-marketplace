@@ -16,8 +16,10 @@ To pin the marketplace at the project level (so every contributor in this repo g
 {
   "extraKnownMarketplaces": {
     "invoice-maker-team-marketplace": {
-      "type": "github",
-      "repo": "eresemai/invoice-maker-team-marketplace"
+      "source": {
+        "source": "github",
+        "repo": "eresemai/invoice-maker-team-marketplace"
+      }
     }
   }
 }
@@ -33,11 +35,11 @@ To pin the marketplace at the project level (so every contributor in this repo g
 
 ## Update flow
 
-- Maintainers cut a release with `claude plugin release` after merging to `main`.
+- Maintainers update both manifest versions together and review the validation run before tagging a release.
 - Consumers pull the latest with:
 
 ```
-/plugin marketplace update team-marketplace
+/plugin marketplace update invoice-maker-team-marketplace
 ```
 
 ## Contribute
